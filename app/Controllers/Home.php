@@ -10,6 +10,6 @@ class Home extends BaseController
             'title' => 'DaySince',
         ];
 
-        return view('pages/home', $data);
+        return view('Pages/home', $data);
     }
 }
